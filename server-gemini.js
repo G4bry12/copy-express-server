@@ -14,7 +14,7 @@ app.use(cors());               // in produzione limita 'origin' al tuo dominio
 app.use(express.json());
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = "gemini-flash-latest"; // modello incluso nel piano gratuito
+const MODEL = "gemini-2.5-flash-lite"; // modello incluso nel piano gratuito
 
 // Informazioni vere su Copy Express: aggiorna qui se cambiano orari/servizi/prezzi.
 const SYSTEM_PROMPT = `
